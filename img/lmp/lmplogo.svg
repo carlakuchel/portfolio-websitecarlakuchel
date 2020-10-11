@@ -1,0 +1,306 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="348" height="348" viewBox="0 0 348 348">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-LOGO_-_Little_Money_Piggy);
+      }
+
+      .cls-2 {
+        fill: #d6f3ff;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #f18c8f;
+        stroke-linecap: round;
+        stroke-width: 3px;
+        opacity: 0.8;
+      }
+
+      .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-7 {
+        fill: #fda9a9;
+      }
+
+      .cls-8 {
+        fill: #e97f82;
+      }
+
+      .cls-9 {
+        fill: #d67073;
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-11 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-12 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-13 {
+        fill: #fff6f6;
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-15 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-16 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-17 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-18 {
+        fill: #fff;
+      }
+
+      .cls-19 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-20 {
+        fill: url(#linear-gradient-11);
+      }
+
+      .cls-21 {
+        fill: url(#linear-gradient-12);
+      }
+
+      .cls-22 {
+        fill: url(#linear-gradient-13);
+      }
+
+      .cls-23 {
+        opacity: 0.9;
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-24 {
+        fill: rgba(255,255,255,0);
+      }
+
+      .cls-25 {
+        filter: url(#Path_15-2);
+      }
+
+      .cls-26 {
+        filter: url(#Path_14-2);
+      }
+
+      .cls-27 {
+        filter: url(#Path_15);
+      }
+
+      .cls-28 {
+        filter: url(#Path_14);
+      }
+
+      .cls-29 {
+        filter: url(#Path_12);
+      }
+
+      .cls-30 {
+        filter: url(#Ellipse_8);
+      }
+
+      .cls-31 {
+        filter: url(#Path_20);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#eaf9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" y2="-0.231" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6797c"/>
+      <stop offset="1" stop-color="#e27778"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcadaf"/>
+      <stop offset="0.734" stop-color="#e6797c"/>
+      <stop offset="1" stop-color="#dd7477"/>
+      <stop offset="1" stop-color="#733d3e"/>
+    </linearGradient>
+    <filter id="Path_20" x="72" y="97.779" width="207" height="179.275" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.283" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#010c39"/>
+      <stop offset="1" stop-color="#001052"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fedf96"/>
+      <stop offset="1" stop-color="#f5c147"/>
+    </radialGradient>
+    <filter id="Ellipse_8" x="146.5" y="69.5" width="55" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffacac"/>
+      <stop offset="1" stop-color="#e6797c"/>
+    </linearGradient>
+    <filter id="Path_12" x="137.5" y="194.965" width="74" height="55.624" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-6" x1="0.248" x2="0.767" y2="0.899" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ffdbdb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.684" x2="0.183" y2="1" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-8" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#011461"/>
+      <stop offset="1" stop-color="#011662"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-10" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f0898c"/>
+      <stop offset="1" stop-color="#fda8a8"/>
+    </linearGradient>
+    <filter id="Path_14" x="209.278" y="90.551" width="62.609" height="65.015" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-11" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4f4f4"/>
+      <stop offset="1" stop-color="#ffdbdb"/>
+    </linearGradient>
+    <filter id="Path_15" x="215.658" y="101.551" width="45.221" height="46.847" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-12" y1="1" y2="0" xlink:href="#linear-gradient-10"/>
+    <filter id="Path_14-2" x="76.277" y="90.551" width="62.609" height="65.015" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-13" y1="0" y2="1" xlink:href="#linear-gradient-11"/>
+    <filter id="Path_15-2" x="87.285" y="101.551" width="45.221" height="46.847" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-3" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe4a3"/>
+      <stop offset="1" stop-color="#f5bf40"/>
+    </radialGradient>
+    <clipPath id="clip-LOGO_-_Little_Money_Piggy">
+      <rect width="348" height="348"/>
+    </clipPath>
+  </defs>
+  <g id="LOGO_-_Little_Money_Piggy" data-name="LOGO - Little Money Piggy" class="cls-1">
+    <rect class="cls-24" width="348" height="348"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" class="cls-2" cx="157.5" cy="157.5" r="157.5" transform="translate(17 17)"/>
+    <ellipse id="Ellipse_11" data-name="Ellipse 11" class="cls-3" cx="84" cy="6" rx="84" ry="6" transform="translate(90 276)"/>
+    <path id="Tail" class="cls-4" d="M17.652,42.438s13,3.619,7.488-7.868c-2.844-5.165-10.69,4.537-13.89,3.394-1.034-.474-3.312-3.689,0-6.565,3.005-2.61,8.809-3.5,10.142-5.623,2.891-4.254-2.835-5-5.771-5.449a9.932,9.932,0,0,0-9.731,6.224" transform="matrix(0.995, -0.105, 0.105, 0.995, 112.28, 73.366)"/>
+    <g id="Legs" class="cls-5" transform="translate(24 37)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-6" width="23" height="35" rx="4" transform="translate(93 210)"/>
+      <path id="Path_16" data-name="Path 16" class="cls-6" d="M4,0H19a4,4,0,0,1,4,4V31a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(184 210)"/>
+      <g id="Hoofs">
+        <path id="Rectangle_3" data-name="Rectangle 3" class="cls-7" d="M0,0H23a0,0,0,0,1,0,0V4a3,3,0,0,1-3,3H4A4,4,0,0,1,0,3V0A0,0,0,0,1,0,0Z" transform="translate(93 238)"/>
+        <path id="Path_17" data-name="Path 17" class="cls-8" d="M0-.056H0l2.846,4.5H-.639Z" transform="translate(106 240.556)"/>
+        <path id="Rectangle_4" data-name="Rectangle 4" class="cls-7" d="M0,0H23a0,0,0,0,1,0,0V4a3,3,0,0,1-3,3H4A4,4,0,0,1,0,3V0A0,0,0,0,1,0,0Z" transform="translate(184 238)"/>
+        <path id="Path_18" data-name="Path 18" class="cls-9" d="M2.207-.056h0l-2.846,4.5H2.846Z" transform="translate(192 240.556)"/>
+      </g>
+    </g>
+    <g class="cls-31" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="Path_20-2" data-name="Path 20" class="cls-10" d="M94.5.779c14.77,0,31.451.994,44.094,6.161C169.952,19.757,189,48.925,189,81c0,27.378-10.129,58.258-34.582,73.036C139.231,163.215,114.75,162,94.5,162c-17.745,0-39.127-.565-53.52-7.964C13.65,139.988,0,110.525,0,81,0,49.954,20.8,20.4,50.927,6.94,63.906,1.14,78.529.779,94.5.779Z" transform="translate(80 106)"/>
+    </g>
+    <g id="Coin" class="cls-5" transform="translate(24 36)">
+      <path id="Path_11" data-name="Path 11" class="cls-11" d="M61.213,9.117C61.213,7.837,45.827.86,30.077.86S.252,7.837.252,9.117,16.337,5.747,30.077,5.982,61.213,10.4,61.213,9.117Z" transform="translate(119 80)"/>
+      <g class="cls-30" transform="matrix(1, 0, 0, 1, -24, -36)">
+        <circle id="Ellipse_8-2" data-name="Ellipse 8" class="cls-12" cx="23" cy="23" r="23" transform="translate(151 73)"/>
+      </g>
+      <path id="Exclusion_1" data-name="Exclusion 1" class="cls-13" d="M-484.5-803a19.376,19.376,0,0,1-7.59-1.532,19.435,19.435,0,0,1-6.2-4.179,19.436,19.436,0,0,1-4.179-6.2A19.377,19.377,0,0,1-504-822.5a19.377,19.377,0,0,1,1.532-7.59,19.436,19.436,0,0,1,4.179-6.2,19.437,19.437,0,0,1,6.2-4.179A19.378,19.378,0,0,1-484.5-842a19.377,19.377,0,0,1,7.59,1.532,19.435,19.435,0,0,1,6.2,4.179,19.435,19.435,0,0,1,4.179,6.2A19.379,19.379,0,0,1-465-822.5a19.379,19.379,0,0,1-1.532,7.59,19.435,19.435,0,0,1-4.179,6.2,19.435,19.435,0,0,1-6.2,4.179A19.376,19.376,0,0,1-484.5-803Zm.5-37a16.889,16.889,0,0,0-12.021,4.979A16.889,16.889,0,0,0-501-823a16.887,16.887,0,0,0,4.979,12.02A16.889,16.889,0,0,0-484-806a16.889,16.889,0,0,0,12.021-4.979A16.887,16.887,0,0,0-467-823a16.889,16.889,0,0,0-4.979-12.021A16.889,16.889,0,0,0-484-840Z" transform="translate(634 884)"/>
+    </g>
+    <g id="Nose" class="cls-5" transform="translate(24 37)">
+      <g class="cls-29" transform="matrix(1, 0, 0, 1, -24, -37)">
+        <path id="Path_12-2" data-name="Path 12" class="cls-14" d="M32.5,3.465c8.975,0,18.891.078,25,4.969C63.153,12.953,65,18.82,65,26c0,7.955-1.954,15.392-9.245,20.332C50.346,50,40.505,50.089,32.5,50.089c-7.718,0-16.065-.007-21.876-3.756C3.471,41.72,0,34.185,0,26,0,18.5,1.9,13.362,8.49,8.434,14.051,4.272,23.92,3.465,32.5,3.465Z" transform="translate(142 195)"/>
+      </g>
+      <ellipse id="Ellipse_12" data-name="Ellipse 12" class="cls-15" cx="6" cy="7" rx="6" ry="7" transform="translate(131 180)"/>
+      <ellipse id="Ellipse_13" data-name="Ellipse 13" class="cls-16" cx="6" cy="7" rx="6" ry="7" transform="translate(159 180)"/>
+    </g>
+    <g id="Eyes" class="cls-5" transform="translate(24 37)">
+      <g id="Group_7" data-name="Group 7" transform="translate(1)">
+        <ellipse id="Ellipse_16" data-name="Ellipse 16" class="cls-17" cx="5.5" cy="7.5" rx="5.5" ry="7.5" transform="translate(119 122)"/>
+        <path id="Path_13" data-name="Path 13" class="cls-18" d="M0-.312A2.914,2.914,0,0,1,2,2c0,1.1-.448,2-1,2S0,3.1,0,2-.552-.312,0-.312Z" transform="translate(126 125)"/>
+      </g>
+      <g id="Group_8" data-name="Group 8" transform="translate(49)">
+        <g id="eye">
+          <ellipse id="Ellipse_16-2" data-name="Ellipse 16" class="cls-17" cx="5.5" cy="7.5" rx="5.5" ry="7.5" transform="translate(120 122)"/>
+          <path id="Path_13-2" data-name="Path 13" class="cls-18" d="M0-.312A2.914,2.914,0,0,1,2,2c0,1.1-.448,2-1,2S0,3.1,0,2-.552-.312,0-.312Z" transform="translate(126 125)"/>
+        </g>
+        <g id="Ears">
+          <g id="Group_10" data-name="Group 10" transform="translate(140.778 57.051)">
+            <g class="cls-28" transform="matrix(1, 0, 0, 1, -213.78, -94.05)">
+              <path id="Path_14-3" data-name="Path 14" class="cls-19" d="M19.964,43.423C25.362,36.752,43.941,16,39.145,6.856S5.578-2.285.783,6.856,14.566,50.1,19.964,43.423Z" transform="translate(250.8 150.07) rotate(-158)"/>
+            </g>
+            <g class="cls-27" transform="matrix(1, 0, 0, 1, -213.78, -94.05)">
+              <path id="Path_15-3" data-name="Path 15" class="cls-20" d="M13.489,29.339c3.647-4.508,16.2-18.53,12.96-24.707S3.769-1.544.529,4.632,9.842,33.847,13.489,29.339Z" transform="translate(245.17 142.9) rotate(-158)"/>
+            </g>
+          </g>
+          <g id="Group_11" data-name="Group 11" transform="translate(7.777 57.051)">
+            <g class="cls-26" transform="matrix(1, 0, 0, 1, -80.78, -94.05)">
+              <path id="Path_14-4" data-name="Path 14" class="cls-21" d="M19.964.859c5.4,6.672,23.976,27.425,19.181,36.567s-33.567,9.142-38.362,0S14.566-5.813,19.964.859Z" transform="matrix(0.93, -0.37, 0.37, 0.93, 80.78, 109.01)"/>
+            </g>
+            <g class="cls-25" transform="matrix(1, 0, 0, 1, -80.78, -94.05)">
+              <path id="Path_15-4" data-name="Path 15" class="cls-22" d="M13.489.58c3.647,4.508,16.2,18.53,12.96,24.707s-22.68,6.177-25.919,0S9.842-3.927,13.489.58Z" transform="matrix(0.93, -0.37, 0.37, 0.93, 91.79, 115.16)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Cheeks" class="cls-5" transform="translate(24 37)">
+      <circle id="cheek" class="cls-23" cx="12.5" cy="12.5" r="12.5" transform="translate(198 146)"/>
+      <circle id="Cheek-2" data-name="Cheek" class="cls-23" cx="12.5" cy="12.5" r="12.5" transform="translate(78 146)"/>
+    </g>
+    <g id="Coin-2" data-name="Coin" class="cls-5" transform="translate(4.681 -3)">
+      <circle id="Ellipse_8-3" data-name="Ellipse 8" class="cls-12" cx="16.5" cy="16.5" r="16.5" transform="translate(127.319 38)"/>
+      <path id="Exclusion_1-2" data-name="Exclusion 1" class="cls-13" d="M14.5,29A14.5,14.5,0,0,1,8.856,1.139,14.5,14.5,0,0,1,20.144,27.861,14.408,14.408,0,0,1,14.5,29Zm.371-27.512A12.641,12.641,0,0,0,5.933,23.067,12.641,12.641,0,1,0,23.81,5.19,12.559,12.559,0,0,0,14.872,1.488Z" transform="translate(129.319 41)"/>
+    </g>
+  </g>
+</svg>
