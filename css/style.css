@@ -5,6 +5,9 @@ Secondary Color (Pink): #e4aea4;
 White: #ffffff
 Dark Grey: #2f2f2f
 */
+*{
+  box-sizing: border-box;
+}
 
 body{
   background-color: #eff8fb;
@@ -16,23 +19,24 @@ body{
 }
 
 h1, h2, h3, h4 {
-  line-height: 2;
+  line-height: 1.6;
 }
 h1{
   font-size:3.052em;
-  font-weight: 700;
+  font-weight: 400;
 }
 h2{
   font-size:2.441em;
-  font-weight: 400;
+  font-weight: 300;
 }
 h3{
   font-size:1.953em;
-  font-weight: 400;
+  font-weight: 260;
+  line-height: 1.2;
 }
 h4{
   font-size:1.563em;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 img {
@@ -45,12 +49,12 @@ a {
 }
 
 a:visited { /* visited link */
-  color: #e4aea4;
+  color: #2f2f2f;
 }
 
 a:hover {
   color: #2f2f2f;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: /* Underlining when hovering over a link */
 }
 
 a:active { /* selected link */
@@ -60,7 +64,6 @@ a:active { /* selected link */
 a:hover,
 a:focus {
   color: #2f2f2f;
-  text-decoration: underline;
 }
 
 a.button {
@@ -90,4 +93,112 @@ a.button {
 .button.contact:hover {
   background-color: #e4aea4;
   color: #ffffff;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #d3d3d3;
+}
+
+#work h1 {
+  text-align: center;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+header {
+  background-color: #e4aea4;
+  text-align: center;
+  padding: 10px 0;
+-webkit-box-shadow: 0px 6px 5px 0px rgba(193, 193, 193, 1);
+-moz-box-shadow:    0px 6px 5px 0px rgba(193, 193, 193, 1);
+box-shadow:         0px 6px 5px 0px rgba(193, 193, 193, 1);
+position: fixed;
+width: 100%
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  color: #ffffff
+}
+
+nav {
+  display: inline-block;
+  width: 100%
+}
+
+#herosection {
+  background-color: #e4aea4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%
+}
+
+
+main {
+  padding-top: 400px;
+}
+
+#contact svg {
+  width:30px;
+  height: auto;
+}
+
+#contact ul > li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 3px;
+
+}
+
+#contact ul {
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+
+}
+
+#contact {
+  text-align: center;
+}
+
+#work {
+  padding-top: 280px;
+}
+
+#intro {
+  text-align: center;
+}
+
+#profile {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  display: block;
+}
+
+#contact {
+  border-top: 1px
+  solid #d3d3d3;
+  padding: 15px;
 }
