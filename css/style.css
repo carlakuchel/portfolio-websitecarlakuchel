@@ -77,7 +77,7 @@ a.button {
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  transition: 0.2s opacity;
+  transition-duration: 0.2s opacity;
 }
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
@@ -102,7 +102,7 @@ a.button {
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 15px 0; /* 25px top and bottom, 0 left and right */
 }
 
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #d3d3d3;
@@ -156,7 +156,7 @@ nav {
 
 
 main {
-  padding-top: 400px;
+  padding-top: 250px;
 }
 
 #contact svg {
@@ -197,8 +197,117 @@ main {
   display: block;
 }
 
-#contact {
-  border-top: 1px
-  solid #d3d3d3;
-  padding: 15px;
+
+.coin-svg {
+  width 100%, max-width 100%, height: auto;
+}
+
+hr {
+  background-color: #2f2f2f
+}
+
+#lmpblurb {
+  text-align: center;
+}
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 50px;
+  }
+#intro span {
+  display: block;
+}
+.col-md-6 {
+  width: 50%;
+}
+
+.col-md-7 {
+  width: 58.33%;
+}
+
+.col-md-5 {
+  width: 33.33%;
+}
+
+.col-md-8 {
+  width: 66.66%;
+}
+
+.col-md-4 {
+  width: 33.33%;
+}
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#work-about-page h3 {
+  margin-top: 0;
+}
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill: #ff9396;}
+}
+.cls-12 {
+animation: 2s color-change infinite alternate linear;
+}
+
+  @keyframes nose-move {
+    from {
+      transform: translate(24px,33px);
+    }
+    to {
+      transform: translate(24px,38px);
+    }
+  }
+
+  .nose-move {
+    animation: 0.3s nose-move infinite alternate linear;
+  }
+
+  #skills {
+    padding-left: 0;
+  }
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+
+.col-lg-7 {
+  width: 58.33%;
+}
+
+.col-lg-5 {
+  width: 33.33%;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skills {
+  padding-left: 0;
+}
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
