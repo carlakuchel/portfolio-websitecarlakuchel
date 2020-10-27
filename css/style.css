@@ -118,8 +118,7 @@ a.button {
 
 header {
   background-color: #e4aea4;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
 -webkit-box-shadow: 0px 6px 5px 0px rgba(193, 193, 193, 1);
 -moz-box-shadow:    0px 6px 5px 0px rgba(193, 193, 193, 1);
 box-shadow:         0px 6px 5px 0px rgba(193, 193, 193, 1);
@@ -130,21 +129,15 @@ width: 100%
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
-nav > ul > li {
-  display: inline-block;
-}
+
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 400;
   color: #ffffff
-}
-
-nav {
-  display: inline-block;
-  width: 100%
 }
 
 #herosection {
@@ -154,9 +147,12 @@ nav {
   width: 100%
 }
 
+#intro h2 {
+  padding-top: 500;
+}
 
 main {
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 #contact svg {
@@ -182,10 +178,6 @@ main {
   text-align: center;
 }
 
-#work {
-  padding-top: 280px;
-}
-
 #intro {
   text-align: center;
 }
@@ -208,6 +200,35 @@ hr {
 
 #lmpblurb {
   text-align: center;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right:0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #ffffff;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 /* ==============================
 Medium devices (640px and larger)
@@ -282,7 +303,21 @@ animation: 2s color-change infinite alternate linear;
   #skills {
     padding-left: 0;
   }
+  nav > ul > li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
 }
+.navtoggle li:last-child {
+  display: none;
+}
+nav > ul {
+  margin: 1em 0;
+}
+
+}
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -305,6 +340,19 @@ Large devices (1024px or larger)
 #skills {
   padding-left: 0;
 }
+nav > ul > li {
+  display: inline-block;
+}
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
+nav > ul {
+  margin: 1em 0;
+}
+
 }
 /* ==============================
 X-large devices (1440px or larger)
