@@ -5,11 +5,11 @@ Secondary Color (Pink): #e4aea4;
 White: #ffffff
 Dark Grey: #2f2f2f
 */
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #eff8fb;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -18,85 +18,100 @@ body{
   color: #2f2f2f;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h4 {
   line-height: 1.6;
 }
-h1{
-  font-size:3.052em;
+
+h1 {
+  font-size: 3.052em;
   font-weight: 400;
 }
-h2{
-  font-size:2.441em;
+
+h2 {
+  font-size: 2.441em;
   font-weight: 300;
 }
-h3{
-  font-size:1.953em;
-  font-weight: 260;
+
+h3 {
+  font-size: 1.953em;
+  font-weight: 200;
   line-height: 1.2;
 }
-h4{
-  font-size:1.563em;
+
+h4 {
+  font-size: 1.563em;
   font-weight: 200;
 }
 
 img {
-  width:100%;
+  width: 100%;
 }
 
 a {
   color: #2f2f2f;
-  text-decoration:; /* No underlining */
+  text-decoration: none;
+  background-color: inherit;
 }
 
-a:visited { /* visited link */
+a:visited {
+  /* visited link */
   color: #2f2f2f;
+  background-color: inherit;
 }
 
 a:hover {
   color: #2f2f2f;
-  text-decoration: /* Underlining when hovering over a link */
+  text-decoration: none; /* Underlining when hovering over a link */
+  background-color: inherit;
 }
 
-a:active { /* selected link */
+a:active {
+  /* selected link */
   color: #2f2f2f;
+  background-color: inherit;
 }
 
-a:hover,
 a:focus {
   color: #2f2f2f;
+  background-color: inherit;
 }
 
 a.button {
   text-decoration: none;
 }
 
-.button, a.button {
+.button,
+a.button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #e4aea4;
-  color: #ffffff; /* needed to override the default link color */
+  color: #2f2f2f; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  transition-duration: 0.2s opacity;
+  transition-duration: 0.2s;
 }
+
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
-.button.contact, a.button.contact {
+.button.contact,
+a.button.contact {
   background-color: transparent;
-  color: #e4aea4;
+  color: #be4d38;
   text-transform: uppercase;
-  border: 2px solid #e4aea4;
+  border: 2px solid #be4d38;
 }
+
 .button.contact:hover {
   background-color: #e4aea4;
-  color: #ffffff;
+  color: #2f2f2f;
 }
 
 /* Layout styling */
-
 .container {
   padding: 0 15px;
 }
@@ -105,7 +120,9 @@ a.button {
   margin: 15px 0; /* 25px top and bottom, 0 left and right */
 }
 
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #d3d3d3;
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 #work h1 {
@@ -117,13 +134,14 @@ a.button {
 }
 
 header {
+  color: inherit;
   background-color: #e4aea4;
   padding: 10px 0 4px;
--webkit-box-shadow: 0px 6px 5px 0px rgba(193, 193, 193, 1);
--moz-box-shadow:    0px 6px 5px 0px rgba(193, 193, 193, 1);
-box-shadow:         0px 6px 5px 0px rgba(193, 193, 193, 1);
-position: fixed;
-width: 100%
+  -webkit-box-shadow: 0 6px 5px 0 rgba(193, 193, 193, 1);
+  -moz-box-shadow: 0 6px 5px 0 rgba(193, 193, 193, 1);
+  box-shadow: 0 6px 5px 0 rgba(193, 193, 193, 1);
+  position: fixed;
+  width: 100%;
 }
 
 nav > ul {
@@ -137,18 +155,20 @@ nav > ul > li > a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 400;
-  color: #ffffff
+  color: #fff;
+  background-color: inherit;
 }
 
 #herosection {
+  color: inherit;
   background-color: #e4aea4;
   padding: 20px 0;
   display: inline-block;
-  width: 100%
+  width: 100%;
 }
 
 #intro h2 {
-  padding-top: 500;
+  padding-top: 500px;
 }
 
 main {
@@ -156,7 +176,7 @@ main {
 }
 
 #contact svg {
-  width:30px;
+  width: 30px;
   height: auto;
 }
 
@@ -164,14 +184,12 @@ main {
   display: inline-block;
   list-style-type: none;
   padding: 3px;
-
 }
 
 #contact ul {
   width: 100%;
-  padding: 0px;
+  padding: 0;
   text-align: center;
-
 }
 
 #contact {
@@ -189,47 +207,61 @@ main {
   display: block;
 }
 
-
 .coin-svg {
-  width 100%, max-width 100%, height: auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 hr {
-  background-color: #2f2f2f
+  color: inherit;
+  background-color: #2f2f2f;
+  border-bottom: 0.2px solid #d3d3d3;
 }
 
 #lmpblurb {
   text-align: center;
 }
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
-.navtoggle, .navtoggle.responsive {
+
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
+
 .navtoggle li .icon {
   position: absolute;
   right: 0;
   top: 2px;
   font-size: 20px;
-  padding-right:0;
+  padding-right: 0;
 }
 
-.navtoggle.responsive li  {
-  display: block;
+hr {
+  border-bottom: 0.2px solid #d3d3d3;
 }
-.navtoggle.responsive nav {
-  padding: 24px 0 0;
-}
-.navtoggle.responsive li  {
-  display: block;
-  padding: 10px 0;
-  border-top: 1px solid #ffffff;
+@media only screen and (max-width: 639px) {
+  .navtoggle.responsive li {
+    display: block;
+  }
+
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+
+  .navtoggle.responsive li {
+    padding: 10px 0;
+    border-top: 1px solid #fff;
+  }
+
+  .navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
+  }
 }
 
-.navtoggle.responsive li:last-child  {
-  padding: 0 0 10px;
-}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -238,61 +270,73 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
+
   nav {
     width: auto;
     float: right;
     margin-top: 50px;
   }
-#intro span {
-  display: block;
-}
-.col-md-6 {
-  width: 50%;
-}
 
-.col-md-7 {
-  width: 58.33%;
-}
+  #intro span {
+    display: block;
+  }
 
-.col-md-5 {
-  width: 33.33%;
-}
+  .col-md-6 {
+    width: 50%;
+  }
 
-.col-md-8 {
-  width: 66.66%;
-}
+  .col-md-7 {
+    width: 58.33%;
+  }
 
-.col-md-4 {
-  width: 33.33%;
-}
-[class*="col-"] {
-  float: left;
-  padding: 10px;
-}
+  .col-md-5 {
+    width: 33.33%;
+  }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+  .col-md-8 {
+    width: 66.66%;
+  }
 
-#work-about-page h3 {
-  margin-top: 0;
-}
-@keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #ff9396;}
-}
-.cls-12 {
-animation: 2s color-change infinite alternate linear;
-}
+  .col-md-4 {
+    width: 33.33%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #work-about-page h3 {
+    margin-top: 0;
+  }
+
+  @keyframes color-change {
+    from {
+      fill: #edc655;
+    }
+
+    to {
+      fill: #ff9396;
+    }
+  }
+
+  .cls-12 {
+    animation: 2s color-change infinite alternate linear;
+  }
 
   @keyframes nose-move {
     from {
-      transform: translate(24px,33px);
+      transform: translate(24px, 33px);
     }
+
     to {
-      transform: translate(24px,38px);
+      transform: translate(24px, 38px);
     }
   }
 
@@ -303,59 +347,59 @@ animation: 2s color-change infinite alternate linear;
   #skills {
     padding-left: 0;
   }
+
   nav > ul > li {
     display: inline-block;
   }
-  .navtoggle li:not(:last-child) {
-  display: inline-block;
-}
-.navtoggle li:last-child {
-  display: none;
-}
-nav > ul {
-  margin: 1em 0;
-}
 
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  nav > ul {
+    margin: 1em 0;
+  }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+    width: 58.33%;
+  }
 
-.col-lg-7 {
-  width: 58.33%;
-}
+  .col-lg-5 {
+    width: 33.33%;
+  }
 
-.col-lg-5 {
-  width: 33.33%;
-}
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  #skills {
+    padding-left: 0;
+  }
 
-#skills {
-  padding-left: 0;
-}
-nav > ul > li {
-  display: inline-block;
-}
-.navtoggle li:not(:last-child) {
-  display: inline-block;
-}
-.navtoggle li:last-child {
-  display: none;
-}
-nav > ul {
-  margin: 1em 0;
-}
+  nav > ul > li {
+    display: inline-block;
+  }
 
-}
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  nav > ul {
+    margin: 1em 0;
+  }
 }
